@@ -114,7 +114,7 @@ public function index()
 
     ];
 
-    return view('main', compact('cards'));
+    return view('index', compact('cards'));
 
 }
 
