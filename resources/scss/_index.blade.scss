@@ -1,0 +1,16 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+.cards-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+article{
+  width: calc((80% / 4 ) - 4rem);
+  margin-right: 2rem;
+}

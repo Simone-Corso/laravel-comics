@@ -3,7 +3,7 @@
 <main>
 <div class="jumbotron">
     <section>
-        <img class='image-jumbotron' src="../assets/img/jumbotron.jpg" alt="">
+    <img src="{{ asset('images/jumbotron.jpg') }}" alt="Example Image">
     </section>
 </div>
 <div class='container-row'>
@@ -21,7 +21,6 @@
         <article>
             <img src="{{ $card['thumb'] }}" alt="Immagine della carta">
             <h2>{{ $card['title'] }}</h2>
-            <p>{{ $card['description'] }}</p>
             <p>Prezzo: {{ $card['price'] }}</p>
             <p>Serie: {{ $card['series'] }}</p>
             <p>Data di vendita: {{ $card['sale_date'] }}</p>
