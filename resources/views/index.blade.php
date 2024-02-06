@@ -1,5 +1,27 @@
 @extends('layout.app')
 
+
+<header>
+    <nav class="menu">
+    <article>
+            <ul>
+                <li>characters</li>
+                <li>comics</li>
+                <li>movies</li>
+                <li>tv</li>
+                <li>games</li>
+                <li>collectibles</li>
+                <li>videos</li>
+                <li>fans</li>
+                <li>news</li>
+                <li>shop</li>
+            </ul>
+        </article>
+    </nav>
+</header>
+
+
+
 <main>
 <div class="jumbotron">
     <section>
@@ -21,10 +43,6 @@
         <article>
             <img src="{{ $card['thumb'] }}" alt="Immagine della carta">
             <h2>{{ $card['title'] }}</h2>
-            <p>Prezzo: {{ $card['price'] }}</p>
-            <p>Serie: {{ $card['series'] }}</p>
-            <p>Data di vendita: {{ $card['sale_date'] }}</p>
-            <p>Tipo: {{ $card['type'] }}</p>
         </article>
     @endforeach
 </div>

@@ -1,16 +1,21 @@
 img {
     width: 100%;
-    height: auto;
+    height: 50%;
 }
 
 .cards-row{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  color: white;
   
 }
 
 article{
-  width: calc((80% / 4 ) - 4rem);
+  width: calc((80% / 5 ) - 4rem);
   margin-right: 2rem;
+}
+
+main{
+  background-color: #303030;
 }
